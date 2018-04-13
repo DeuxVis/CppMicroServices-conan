@@ -12,7 +12,7 @@ class CppMicroServicesConan(ConanFile):
     description = "An OSGi-like C++ dynamic module system and service registry http://cppmicroservices.org"
     settings = ['os', 'compiler', 'build_type', 'arch']
     generators = ['cmake']
-    url = 'https://github.com/pollen-metrology/CppMicroServices-conan.git'
+    url = 'https://github.com/DeuxVis/CppMicroServices-conan.git'
     options = {
         'US_ENABLE_THREADING_SUPPORT': ['ON', 'OFF'],    # Enable threading support.
         'US_BUILD_SHARED_LIBS': ['ON', 'OFF'],           # Build shared libraries.
